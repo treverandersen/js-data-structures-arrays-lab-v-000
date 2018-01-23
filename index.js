@@ -16,3 +16,7 @@ function destructivelyRemoveLastDriver(name) {
 function destructivelyRemoveFirstDriver(name) {
   drivers.shift(name)
 }
+
+function appendDriver(name) {
+  drivers = drivers.push(name)
+}
