@@ -28,7 +28,7 @@ function prependDriver(name) {
 }
 
 function removeLastDriver() {
-  const allDrivers = [...drivers.slice(last)]
+  const allDrivers = drivers.pop()
   return allDrivers
 }
 
